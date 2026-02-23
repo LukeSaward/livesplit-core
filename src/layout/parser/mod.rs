@@ -595,6 +595,7 @@ where
             "Tenths" => Accuracy::Tenths,
             "Seconds" => Accuracy::Seconds,
             "Hundredths" => Accuracy::Hundredths,
+            "Milliseconds" => Accuracy::Milliseconds,
             _ => return Err(Error::ParseAccuracy),
         });
         Ok(())
